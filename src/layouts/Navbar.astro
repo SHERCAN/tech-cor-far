@@ -28,7 +28,7 @@ import {
           class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 ml-4"
         >
           <svg
-            id="theme-toggle-dark-icon"
+            id="theme-toggle-light-icon"
             class="hidden w-5 h-5"
             fill="#000"
             viewBox="0 0 20 20"
@@ -38,7 +38,7 @@ import {
             ></path></svg
           >
           <svg
-            id="theme-toggle-light-icon"
+            id="theme-toggle-dark-icon"
             class="hidden w-5 h-5"
             fill="#fff"
             viewBox="0 0 20 20"
@@ -57,41 +57,40 @@ import {
       class="hidden lg:flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
     >
       <ul
-        class="flex flex-col lg:flex-row lg:gap-5 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-80 bg-transparent dark:border-gray-700"
+        class="flex flex-col lg:flex-row lg:gap-5 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-80 bg-transparent dark:border-gray-700 text-lg" id="menu-ul"
       >
         <li>
           <a
             href="#inicio"
-            id="inicio"
-            class="target:text-blue-600 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             aria-current="page">Inicio</a
           >
         </li>
         <li>
           <a
             href="#servicios"
-            class="target:text-blue-600 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="target:text-blue-600 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >Servicios</a
           >
         </li>
         <li>
           <a
             href="#proyectos"
-            class="target:text-blue-600 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="target:text-blue-600 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >Proyectos</a
           >
         </li>
         <li>
           <a
             href="#quienes"
-            class="target:text-blue-600 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="target:text-blue-600 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >Quienes somos</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="target:text-blue-600 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="target:text-blue-600 block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >Contacto</a
           >
         </li>
@@ -100,16 +99,32 @@ import {
   </Astronav>
 </header>
 <script>
-  window.addEventListener("scroll", function () {
-    const sections = document.querySelectorAll("section");
-    for (const section of sections) {
-      const rect = section.getBoundingClientRect();
-      if (rect.top >= 0 && rect.top < window.innerHeight * 0.5) {
-        history.replaceState(null, "cal", `#${section.id}`);
-        break;
-      }
-    }
-  });
+ // JavaScript
+const sections = document.querySelectorAll("section"); // Obtén todas las secciones
+const menuItems = document.querySelectorAll("#menu-ul")[0].children; // Obtén los elementos del menú
+
+window.addEventListener("scroll", () => {
+    const scrollPosition = window.scrollY;
+
+    sections.forEach((section, index) => {
+        const sectionTop = section.offsetTop;
+        const sectionBottom = sectionTop + section.offsetHeight;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            // La sección actual es la que está visible
+            if (localStorage.getItem("color-theme") === "dark"){
+              menuItems[index].children[0].classList.add("dark:!text-blue-500"); // Cambia el color del menú
+            }
+            else{
+              menuItems[index].children[0].classList.add("text-blue-500"); // Cambia el color del menú
+            }
+        } else {
+            menuItems[index].children[0].classList.remove("text-blue-500"); // Restaura el color original
+            menuItems[index].children[0].classList.remove("dark:!text-blue-500"); // Restaura el color original
+        }
+    });
+});
+
   var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
   var themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
 
@@ -120,6 +135,7 @@ import {
       window.matchMedia("(prefers-color-scheme: dark)").matches)
   ) {
     themeToggleDarkIcon?.classList.remove("hidden");
+    document.documentElement.classList.add("dark");
   } else {
     
     themeToggleLightIcon?.classList.remove("hidden");
