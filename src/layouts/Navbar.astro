@@ -11,25 +11,26 @@ import {
 >
   <Astronav closeOnClick>
     <div class="flex w-full lg:w-auto justify-between">
+      <div class="flex">
       <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img
           src="https://w7.pngwing.com/pngs/850/174/png-transparent-technology-business-marketing-management-technological-sense-runner-text-service-logo.png"
-          class="h-8"
+          class="lg:h-8 h-16"
           alt="logo"
         />
         <span
-          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white lg:text-xl"
           >AutomaTec</span
         >
       </a>
       <button
           id="theme-toggle"
           type="button"
-          class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 ml-4"
+          class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700  rounded-lg text-sm ml-4"
         >
           <svg
             id="theme-toggle-light-icon"
-            class="hidden w-5 h-5"
+            class="hidden lg:h-6 h-10"
             fill="#000"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +40,7 @@ import {
           >
           <svg
             id="theme-toggle-dark-icon"
-            class="hidden w-5 h-5"
+            class="hidden lg:h-6 h-10"
             fill="#fff"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -49,8 +50,9 @@ import {
               clip-rule="evenodd"></path></svg
           >
         </button>
-      <div class="block lg:hidden transition-all">
-        <MenuIcon class="w-4 h-4 text-white-800" />
+      </div>
+      <div class="flex justify-center lg:hidden transition-all">
+        <MenuIcon class="lg:w-12 w-20 text-white-800 dark:text-gray-50 dark:hover:text-blue-700" />
       </div>
     </div>
     <MenuItems
