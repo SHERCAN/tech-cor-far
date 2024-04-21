@@ -1,0 +1,31 @@
+{
+    "somos": [
+        {
+            "name": "Yesid Farfan",
+            "img":"/exp1.jpg",
+            "profesion": "Ingeniero mecátronico",
+            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
+            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+        },
+        {
+            "name": "Yesid Farfan",
+            "img":"/exp1.jpg",
+            "profesion": "Ingeniero mecátronico",
+            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
+            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+        },  {
+            "name": "Yesid Farfan",
+            "img":"/exp1.jpg",
+            "profesion": "Ingeniero mecátronico",
+            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
+            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+        },
+        {
+            "name": "Yesid Farfan",
+            "img":"/exp1.jpg",
+            "profesion": "Ingeniero mecátronico",
+            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
+            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+        }
+    ]
+}

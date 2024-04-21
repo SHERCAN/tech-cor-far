@@ -1,0 +1,28 @@
+---
+export interface Props {
+  name: string;
+  img: string;
+  profesion: string;
+  p1: string;
+  p2: string;
+}
+const { name, img, profesion, p1, p2 } = Astro.props;
+---
+
+<div
+  class="mx-auto my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:max-w-96"
+>
+  <div class="flex flex-col items-center py-6 ">
+    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src={img} alt={img} />
+    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+      {name}
+    </h5>
+    <span class="text-sm text-gray-500 dark:text-gray-400">{profesion}</span>
+    <div
+      class="flex mt-4 md:mt-6 text-gray-700 dark:text-gray-200 flex-wrap p-4"
+    >
+      <p>{p1}</p>
+      <p>{p2}</p>
+    </div>
+  </div>
+</div>
