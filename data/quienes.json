@@ -8,24 +8,24 @@
             "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
         },
         {
-            "name": "Yesid Farfan",
-            "img":"/exp1.jpg",
-            "profesion": "Ingeniero mecátronico",
-            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
-            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+            "name": "Jorge Gallo",
+            "img":"/exp3.jpg",
+            "profesion": "Especialista en inteligencia artificial",
+            "p1": "Experto en inteligencia artificial con sólidos conocimientos en aprendizaje automático, procesamiento del lenguaje natural, visión por computadora y robótica. Amplia experiencia en programación de algoritmos complejos y uso de herramientas como TensorFlow y PyTorch. Capacidad probada para analizar grandes conjuntos de datos y desarrollar modelos predictivos que impulsan la toma de decisiones inteligentes en diversos sectores.",
+            "p2": "Fuertes habilidades analíticas y capacidad para abordar problemas complejos con creatividad e innovación. Capaz de comunicar de manera efectiva resultados y soluciones a audiencias técnicas y no técnicas. Colaborador excepcional con experiencia en trabajo en equipo y colaboración interdisciplinaria para alcanzar objetivos comunes."
         },  {
-            "name": "Yesid Farfan",
-            "img":"/exp1.jpg",
+            "name": "Daniel Otalora",
+            "img":"/exp4.jpg",
             "profesion": "Ingeniero mecátronico",
-            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
-            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+            "p1": "Ingeniero especializado en sistemas de pesaje con experiencia en el diseño y desarrollo de software personalizado para sistemas industriales de pesaje. Experto en diseño de circuitos PCB en tecnología SMD y Throu Hole, así como en programación de sistemas embebidos para control y monitoreo.",
+            "p2": "Destaco por mis habilidades analíticas y capacidad para abordar problemas complejos relacionados con sistemas de pesaje y electrónica. Además, tengo una destacada capacidad para aplicar la creatividad y la innovación en la resolución de problemas, colaborando eficazmente en equipos interdisciplinarios para lograr objetivos comunes en proyectos de ingeniería."
         },
         {
-            "name": "Yesid Farfan",
-            "img":"/exp2.jpg",
-            "profesion": "Ingeniero mecátronico",
-            "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
-            "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
+            "name": "Carlos Murcia",
+            "img":"/exp5.jpg",
+            "profesion": "Especialista en Diseño",
+            "p1": "Experto en Interfaz de Usuario (UI) y Experiencia de Usuario (UX) con una sólida trayectoria en el diseño y desarrollo de interfaces intuitivas y atractivas para una amplia variedad de aplicaciones, incluyendo móviles, de escritorio y web. Cuento con experiencia en la creación de wireframes, prototipos y diseños finales que optimizan la usabilidad y la satisfacción del usuario, centrándome en la creación de experiencias fluidas y coherentes que cumplen con los objetivos del negocio y las expectativas de los usuarios.",
+            "p2": "Mi enfoque se basa en comprender las necesidades y comportamientos de los usuarios para diseñar soluciones que no solo sean visualmente atractivas, sino también funcionales y eficientes. Destaco por mi capacidad para trabajar en colaboración con equipos multidisciplinarios, incluyendo diseñadores, desarrolladores y especialistas en marketing, para traducir requisitos y objetivos comerciales en interfaces de usuario efectivas y atractivas."
         }
     ]
 }
