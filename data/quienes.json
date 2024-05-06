@@ -2,30 +2,83 @@
     "somos": [
         {
             "name": "Yesid Farfan",
-            "img":"/exp1.jpg",
+            "img": "/exp1.jpg",
             "profesion": "Ingeniero mecátronico",
             "p1": "Ingeniero mecátronico con énfasis en gestión de proyectos y trabajo colaborativo. Poseo amplios conocimientos en automatización industrial, protocolos de comunicación, Industria 4.0 e Internet de las cosas (IoT).",
             "p2": "Mi pasión radica en solucionar problemas utilizando las herramientas adecuadas de manera transparente. Siempre busco mejorar la vida de mis colaboradores y clientes, con un enfoque centrado en la innovación y la excelencia."
         },
         {
             "name": "Jorge Gallo",
-            "img":"/exp3.jpg",
+            "img": "/exp3.jpg",
             "profesion": "Especialista en inteligencia artificial",
             "p1": "Experto en inteligencia artificial con sólidos conocimientos en aprendizaje automático, procesamiento del lenguaje natural, visión por computadora y robótica. Amplia experiencia en programación de algoritmos complejos y uso de herramientas como TensorFlow y PyTorch. Capacidad probada para analizar grandes conjuntos de datos y desarrollar modelos predictivos que impulsan la toma de decisiones inteligentes en diversos sectores.",
             "p2": "Fuertes habilidades analíticas y capacidad para abordar problemas complejos con creatividad e innovación. Capaz de comunicar de manera efectiva resultados y soluciones a audiencias técnicas y no técnicas. Colaborador excepcional con experiencia en trabajo en equipo y colaboración interdisciplinaria para alcanzar objetivos comunes."
-        },  {
+        },
+        {
             "name": "Daniel Otalora",
-            "img":"/exp4.jpg",
+            "img": "/exp4.jpg",
             "profesion": "Ingeniero mecátronico",
             "p1": "Ingeniero especializado en sistemas de pesaje con experiencia en el diseño y desarrollo de software personalizado para sistemas industriales de pesaje. Experto en diseño de circuitos PCB en tecnología SMD y Throu Hole, así como en programación de sistemas embebidos para control y monitoreo.",
             "p2": "Destaco por mis habilidades analíticas y capacidad para abordar problemas complejos relacionados con sistemas de pesaje y electrónica. Además, tengo una destacada capacidad para aplicar la creatividad y la innovación en la resolución de problemas, colaborando eficazmente en equipos interdisciplinarios para lograr objetivos comunes en proyectos de ingeniería."
         },
         {
             "name": "Carlos Murcia",
-            "img":"/exp5.jpg",
+            "img": "/exp5.jpg",
             "profesion": "Especialista en Diseño",
             "p1": "Carlos es un desarrollador Frontend innovador con más de 4 años de experiencia en implementar soluciones sólidas en entornos JavaScript. Cuenta con experiencia en  desarrollo full-stack, es habilidoso en la creación de scripts de automatización y mejora de funcionalidades de plataformas. Tambien es reconocido por mejorar experiencias de usuario y eficiencias operativas en diversos proyectos. Tiene una sólida experiencia en Node.js, React.js, MongoDB, Express, JavaScript, HTML5, CSS3, y con una sólida formación en desarrollo de software.",
             "p2": ""
+        }
+    ],
+    "servicios": [
+        {
+            "title": "Optimización de Procesos Industriales",
+            "data": [
+                "Implementación de sistemas de monitorización en tiempo real para identificar cuellos de botella y áreas de mejora. Introducción de sistemas de fabricación flexible para adaptarse a la demanda cambiante del mercado.",
+                "Desarrollo de algoritmos de optimización para maximizar la eficiencia en la producción. Introducción de sistemas de fabricación flexible para adaptarse a la demanda cambiante del mercado.",
+                "Introducción de sistemas de fabricación flexible para adaptarse a la demanda cambiante del mercado."
+            ]
+        },
+        {
+            "title": "Control de Procesos",
+            "data": [
+                "Desarrollo de sistemas de control avanzados utilizando tecnologías de automatización y PLC para garantizar la precisión y la consistencia en la producción.",
+                "Implementación de sistemas de control de calidad en línea para detectar y corregir desviaciones en tiempo real."
+            ]
+        },
+        {
+            "title": "Mejoramiento de la Calidad",
+            "data": [
+                "Introducción de técnicas de análisis de datos avanzadas para identificar patrones y tendencias que afectan la calidad del producto.",
+                "Implementación de sistemas de retroalimentación automática para corregir desviaciones y mejorar continuamente los procesos."
+            ]
+        },
+        {
+            "title": "Mantenimiento Predictivo",
+            "data": [
+                "Desarrollo de sistemas de mantenimiento predictivo basados en análisis de datos en tiempo real de sensores IoT para prevenir fallos de equipos y minimizar el tiempo de inactividad.",
+                "Utilización de técnicas de inteligencia artificial para predecir el rendimiento y la vida útil de los equipos."
+            ]
+        },
+        {
+            "title": "Soluciones de Software",
+            "data": [
+                "Diseño de sistemas SCADA personalizados para supervisar y controlar procesos industriales desde cualquier lugar.",
+                "Desarrollo de aplicaciones móviles para acceder a datos y realizar análisis en tiempo real."
+            ]
+        },
+        {
+            "title": "Soluciones de Hardware",
+            "data": [
+                "Diseño y fabricación de dispositivos IoT y sensores inteligentes para recopilar datos de forma remota y automatizada.",
+                "Desarrollo de sistemas de control y actuadores personalizados para adaptarse a las necesidades específicas de cada industria."
+            ]
+        },
+        {
+            "title": "Inteligencia Artificial",
+            "data": [
+                "Implementación de algoritmos de aprendizaje automático para predecir la demanda del mercado y optimizar la planificación de la producción.",
+                "Utilización de sistemas de visión por computadora para inspeccionar la calidad del producto y detectar defectos de manera automatizada."
+            ]
         }
     ]
 }
