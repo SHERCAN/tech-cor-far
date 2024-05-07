@@ -5,8 +5,9 @@ export interface Props {
 }
 const { title, list_p } = Astro.props;
 ---
+
 <style>
-  .card_servicio{
+  .card_servicio {
     transition: transform 0.1s;
     perspective: 1000px;
   }
@@ -46,17 +47,21 @@ const { title, list_p } = Astro.props;
     if (cards) {
       cards.forEach((card) => {
         const cardRect = card.getBoundingClientRect();
-        if (cardRect.top < 0) {       
-          const rotationAngle = Math.min(90, ((-cardRect.top*2)/cardRect.height) * 90);
-          (card.childNodes[1] as HTMLElement).style.transform = `translate3d(0px, ${rotationAngle / 2}px, 0px) rotateX(${rotationAngle}deg)`;
+        if (cardRect.top < 0) {
+          const rotationAngle = Math.min(
+            90,
+            ((-cardRect.top * 2) / cardRect.height) * 90,
+          );
+          (card.childNodes[1] as HTMLElement).style.transform =
+            `translate3d(0px, ${rotationAngle / 2}px, 0px) rotateX(${rotationAngle}deg)`;
         } else {
           console.log("Sale de corregir");
-          (card.childNodes[1] as HTMLElement).style.transform = `translate3d(0px, 0px, 0px) rotateX(0deg)`;
+          (card.childNodes[1] as HTMLElement).style.transform =
+            `translate3d(0px, 0px, 0px) rotateX(0deg)`;
         }
       });
     }
-}
+  }
 
-window.addEventListener("scroll", handleScroll);
-
+  window.addEventListener("scroll", handleScroll);
 </script>
