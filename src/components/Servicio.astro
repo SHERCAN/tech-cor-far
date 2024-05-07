@@ -41,9 +41,9 @@ const { title, list_p } = Astro.props;
   </div>
 </div>
 <script>
-  function handleScroll() {
-    const cards: NodeListOf<HTMLElement> | null =
+  const cards: NodeListOf<HTMLElement> | null =
       document.querySelectorAll(".card_servicio");
+  function handleScroll() {
     if (cards) {
       cards.forEach((card) => {
         const cardRect = card.getBoundingClientRect();
@@ -53,11 +53,10 @@ const { title, list_p } = Astro.props;
             ((-cardRect.top * 2) / cardRect.height) * 90,
           );
           (card.childNodes[1] as HTMLElement).style.transform =
-            `translate3d(0px, ${rotationAngle / 2}px, 0px) rotateX(${rotationAngle}deg)`;
+          `rotate3d(2, 0, 0, ${rotationAngle}deg)`
         } else {
-          console.log("Sale de corregir");
           (card.childNodes[1] as HTMLElement).style.transform =
-            `translate3d(0px, 0px, 0px) rotateX(0deg)`;
+          `rotate3d(0, 0, 0, 0deg)`
         }
       });
     }
